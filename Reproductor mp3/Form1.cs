@@ -56,7 +56,7 @@ namespace reproductor_MP3
                 {
                    DialogResult resultado =
                         openFileDialog1.ShowDialog();
-                    //El usuario cancelo la selñección
+                    //El usuario cancelo la selección
                     if (resultado != DialogResult.OK)
                     {
                         return;
@@ -68,7 +68,7 @@ namespace reproductor_MP3
                     label2.Text = "Archivo seleccionado: " +
                         Path.GetFileName(archivoSeleccionado);
                 }
-                //Indicamos al reproductor que reproduzcz el archivo seleccionado
+                //Indicamos al reproductor que reproduzce el archivo seleccionado
                 reproductor.URL = archivoSeleccionado;
                 //Reproducir sonido
                 reproductor.controls.play();
